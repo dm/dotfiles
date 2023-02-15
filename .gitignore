@@ -1,0 +1,21 @@
+# Cloned extra/submodules
+fu/
+hub/
+kp/
+roles/
+tmux/workspaces/
+z/
+
+# Log file
+dotfiles.log
+
+vim/vim.sl/.netrwhist
+vim/vim.sl/bundle/*
+vim/vim.sl/init.vim
+
+# Add ANY bin manually
+bin.sl/*
+
+# Used in mac-dev-playbook
+dotfiles_setup_complete
+venv/
