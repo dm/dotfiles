@@ -24,7 +24,7 @@ alias noton=launchctl load -w /System/Library/LaunchAgents/com.apple.notificatio
 alias c='code-insiders'
 
 # grep history
-alias gh='fc -l 0 | grep'
+alias ghi='fc -l 0 | grep'
 
 alias whereami="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active' | egrep -o -m 1 '^[^\t:]+' | xargs ipconfig getifaddr; curl ipecho.net/plain; echo"
 alias emptify="cat /dev/null > $1"
